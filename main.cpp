@@ -2,7 +2,7 @@
 #include <QApplication>
 #include <QMessageBox>
 #include "connection.h"
-#include "etudiant.h"
+#include "ligne.h"
 
 
 int main(int argc, char *argv[])
@@ -25,4 +25,3 @@ int main(int argc, char *argv[])
                                  "Click Cancel to exit."), QMessageBox::Cancel);
     return a.exec();
 }
-
